@@ -1,0 +1,89 @@
+html,
+body {
+  background: url("../images/textur1.jpg");
+}
+
+.header .text-aligned-center {
+  left: calc(50% - 35px);
+  top: calc(50% - 13px);
+}
+
+.scooters .header {
+  height: 2.5rem;
+  transition: all 700ms;
+}
+
+.scooters {
+  margin: 0 auto;
+}
+
+.scooters .scooter {
+  border-radius: 0.5rem;
+  background-color: white;
+  transition: all 1s;
+}
+
+.scooters .scooter img {
+  max-width: 95%;
+  max-height: 11rem;
+}
+
+.scooters .scooter .btn {
+  top: calc(91% - 17px);
+  left: calc(75% - 47px);
+  padding: 0.4rem 1.5rem;
+  border-radius: 0.4rem;
+  transition: background-color 1s;
+}
+
+.scooter .price {
+  font-size: 1.2rem;
+}
+
+.container .speaker {
+  width: 5rem;
+  top: calc(50% - 16px);
+  right: 0rem;
+  background: #c6c6c6;
+}
+
+.scooters .header:hover {
+  background: #fffefe !important;
+  color: #343a40 !important;
+  cursor: pointer;
+}
+
+.scooters .scooter:hover .button {
+  display: block !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 0.4rem;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.scooters .scooter:hover {
+  transform: scale(1.08);
+  z-index: 1;
+  box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem #c6c6c6;
+  text-shadow: 0px 0px 1px #dc3545;
+}
+
+.scooter .btn:hover {
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #c1c1c1;
+  color: orangered;
+}
+
+.btn:active {
+  color: white !important;
+}
+
+@media screen and (max-width: 768px) {
+  .mb-5 {
+    margin-bottom: 0.3rem !important;
+  }
+}
