@@ -83,7 +83,7 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  .mb-5 {
+  .header {
     margin-bottom: 0.3rem !important;
   }
 }
